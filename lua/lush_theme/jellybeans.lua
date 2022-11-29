@@ -198,7 +198,7 @@ local theme = lush(function()
     -- Macro          { }, --    same as Define
     -- PreCondit      { }, --  preprocessor #if, #else, #endif, etc.
 
-    Type           { fg = koromiko, gui="italic" }, -- (preferred) int, long, char, etc.
+    Type           { fg = biloba_flower, gui="italic" }, -- (preferred) int, long, char, etc.
     -- StorageClass   { }, -- static, register, volatile, etc.
     Structure      { fg = morning_glory }, --  struct, union, enum, etc.
     -- Typedef        { }, --  A typedef
