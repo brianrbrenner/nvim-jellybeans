@@ -192,7 +192,7 @@ local theme = lush(function()
     -- Keyword        { }, --  any other keyword
     -- Exception      { }, --  try, catch, throw
 
-    PreProc        { fg = ship_cove }, -- (preferred) generic Preprocessor
+    PreProc        { fg = wewak }, -- (preferred) generic Preprocessor
     Include        { PreProc, gui = "italic" }, --  preprocessor #include
     -- Define         { }, --   preprocessor #define
     -- Macro          { }, --    same as Define
