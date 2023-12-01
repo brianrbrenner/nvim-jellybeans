@@ -258,6 +258,8 @@ local theme = lush(function(injected_functions)
 
     -- lsp semantic
     sym("@lsp.type.namespace") { fg = wewak },
+    sym("@lsp.type.type") { fg = koromiko },
+    sym("@lsp.type.directory") { fg = koromiko },
 
     -- These groups are for the neovim tree-sitter highlights.
     -- As of writing, tree-sitter support is a WIP, group names may change.
