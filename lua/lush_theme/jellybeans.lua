@@ -95,7 +95,9 @@ local tea_green  =hsl("#d2ebbe")
 local dell = hsl("#437019")
 local calypso = hsl("#2B5B77")
 
-local theme = lush(function()
+
+local theme = lush(function(injected_functions)
+  local sym = injected_functions.sym
   return {
     -- The following are all the Neovim default highlight groups from the docs
     -- as of 0.5.0-nightly-446, to aid your theme creation. Your themes should
@@ -253,6 +255,9 @@ local theme = lush(function()
     -- LspDiagnosticsSignWarning            { }, -- Used for "Warning" signs in sign column
     -- LspDiagnosticsSignInformation        { }, -- Used for "Information" signs in sign column
     -- LspDiagnosticsSignHint               { }, -- Used for "Hint" signs in sign column
+
+    -- lsp semantic
+    sym("@lsp.type.namespace") { fg = wewak },
 
     -- These groups are for the neovim tree-sitter highlights.
     -- As of writing, tree-sitter support is a WIP, group names may change.
