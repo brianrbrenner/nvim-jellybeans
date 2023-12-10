@@ -356,8 +356,8 @@ local theme = lush(function(injected_functions)
     StatusLineInsertAccent { fg = perano };
     StatusLineVisualAccent { fg = biloba_flower };
     StatusLineReplaceAccent { fg = raw_sienna };
-    StatusLineCmdAccent { fg = casal };
-    StatusLineTerminalAccent { fg = wewak };
+    StatusLineCmdAccent { fg = wewak };
+    StatusLineTerminalAccent { fg = mantis };
   }
 end)
 
