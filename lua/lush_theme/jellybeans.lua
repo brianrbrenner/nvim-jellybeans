@@ -349,6 +349,15 @@ local theme = lush(function(injected_functions)
     NvimTreeGitRenamed { GitSignsChange };
     NvimTreeGitNew     { GitSignsAdd };
     NvimTreeGitDeleted { GitSignsDelete };
+
+    -- statusline modes
+
+    StatusLineAccent { fg = total_white };
+    StatusLineInsertAccent { fg = perano };
+    StatusLineVisualAccent { fg = biloba_flower };
+    StatusLineReplaceAccent { fg = raw_sienna };
+    StatusLineCmdAccent { fg = casal };
+    StatusLineTerminalAccent { fg = wewak };
   }
 end)
 
